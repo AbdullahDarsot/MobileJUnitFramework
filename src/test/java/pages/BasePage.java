@@ -24,8 +24,6 @@ public class BasePage {
     public MobileElements Skip;
     public MobileElements Search;
     public MobileElements Navigation;
-    public MobileElements CloseSave;
-    public MobileElements DontSave;
 
 
 
