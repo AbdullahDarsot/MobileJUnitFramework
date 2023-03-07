@@ -21,6 +21,7 @@ public class BasePage {
         Elements();
     }
 
+    public MobileElements Logo;
     public MobileElements Skip;
     public MobileElements Search;
     public MobileElements Navigation;
@@ -29,12 +30,13 @@ public class BasePage {
 
     public void Elements (){
 
+        Logo = new MobileElements(driver, By.id("com.reddit.frontpage:id/launch_logo"));
         Skip = new MobileElements(driver, MobileBy.id("com.reddit.frontpage:id/skip_text"));
         Search = new MobileElements(driver,By.id("com.reddit.frontpage:id/search_view"));
         Navigation = new MobileElements(driver, By.id("com.reddit.frontpage:id/nav_icon"));
     }
 
     public void skipSignUp(){
-        Skip.click();
+        Search.click();
     }
 }
