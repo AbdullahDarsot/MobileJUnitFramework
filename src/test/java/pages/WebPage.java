@@ -36,7 +36,7 @@ public class WebPage {
         ClickSearch = new MobileElements(driver,By.id("com.reddit.frontpage:id/search_view"));
     }
 
-    public void clickReddit(){
+    public void ClickReddit(){
         GoogleChrome.click();
     }
 
