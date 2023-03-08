@@ -28,7 +28,6 @@ public class MobileHooks extends Driver {
 
     @After (order = 0)
     public void tearDown() {
-
         driver.quit();
     }
 
